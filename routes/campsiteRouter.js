@@ -232,10 +232,3 @@ campsiteRouter.route('/:campsiteId/comments/:commentId')
     });
 
 module.exports = campsiteRouter;
-
-
-
-
-
-// id ((req.user._id).equals(campsite.comments.id(req.params.commnetId).author._id))\
-// if ((campsite.comments.id(req.params.commentId).author._id).equals(req.user._id))
